@@ -607,7 +607,7 @@ function draw(){
 		ctx.fillText(msg_wall, canvas.width / 2 - 80, canvas.height / 2 + 60);
 		if(bool_hit_food && !bool_hit_wall)
 			ctx.fillText(msg, canvas.width / 2 - 120, canvas.height / 2 + 120);
-		SPEED = 5;
+		SPEED = 8;
 	}
 }
 
